@@ -1,6 +1,6 @@
 # Conference Center Management System
 
-- **Note:** The user-facing interface (menus, prompts, and messages), as well as the code comments, are in Greek.
+**Note:** The user-facing interface (menus, prompts, and messages), as well as the code comments, are in Greek.
 
 ## Overview
 This project is a Java-based console application for managing conference centers, rooms, clients, reservations, and payments. The system connects to a MySQL database named `psifiakaDB`.
