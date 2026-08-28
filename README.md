@@ -27,10 +27,11 @@ The relational model consists of the following tables:
 - MySQL JDBC Driver (`mysql-connector-j.jar`)
 
 ## Setup Instructions
-1. Import the provided SQL dump into your MySQL server. This will create the `psifiakaDB` database, the necessary tables, and insert sample data.
-2. Compile the `Main.java` file ensuring the MySQL JDBC driver is included in the classpath.
-3. If necessary, adjust the `userName` and `password` variables in the database connection string within the code (default is `root` and empty password).
-4. Run the compiled `Main` class.
+1. **Set Up the Database:** Import the provided `psifiakaDB.sql` dump into your MySQL server. This will create the `psifiakaDB` database, the necessary tables, and insert sample data.
+2. **Verify Credentials:** If necessary, adjust the `userName` and `password` variables in the database connection string within `Main.java` (default is `root` and an empty password).
+3. **Compile the Application:** Compile the `Main.java` file, ensuring the MySQL JDBC driver is included in the classpath. Run this command in your terminal:
+   ```bash
+   javac -cp ".:mysql-connector-j.jar" Main.java
 
 ## Usage
 The application operates via a numeric console menu. Enter the number corresponding to the desired action and follow the on-screen prompts.
