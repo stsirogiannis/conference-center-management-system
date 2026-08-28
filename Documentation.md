@@ -1,7 +1,5 @@
 # System Documentation
 
-This document is the English transcription of the **Documentation.pdf** file.
-
 ## Section A) Entity-Relationship Diagram (Logical Model)
 
 The main system entities and their attributes:
