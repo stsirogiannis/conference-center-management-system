@@ -37,4 +37,4 @@ The application operates via a numeric console menu. Enter the number correspond
 To safely exit the application, enter `0` at the main menu.
 
 ## References
-For an in-depth explanation of the Entity-Relationship (Logical) Model, Relational Model, and the complete application user manual, please reference the included **Documentation.pdf** file.
+For an in-depth explanation of the Entity-Relationship (Logical) Model, Relational Model, and the complete application user manual, please reference the included **Documentation.pdf** & **Documentation.md** files.
